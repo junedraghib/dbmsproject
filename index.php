@@ -187,24 +187,24 @@
                                         <div class="login-group">
                                             <div class="form-group">
                                                 <label for="reg_username" class="sr-only">Email address</label>
-                                                <input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="username">
+                                                <input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="username" require>
                                             </div>
                                             <div class="form-group">
                                                 <label for="reg_password" class="sr-only">Password</label>
-                                                <input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="password">
+                                                <input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="password" require>
                                             </div>
                                             <div class="form-group">
                                                 <label for="reg_password_confirm" class="sr-only">Password Confirm</label>
-                                                <input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="confirm password">
+                                                <input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="confirm password" require>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="reg_email" class="sr-only">Email</label>
-                                                <input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email">
+                                                <input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email" require>
                                             </div>
                                             <div class="form-group">
                                                 <label for="reg_fullname" class="sr-only">Full Name</label>
-                                                <input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name">
+                                                <input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name"> require
                                             </div>
 
                                             <div class="form-group login-group-checkbox">
@@ -217,19 +217,19 @@
 
                                             <div class="form-group">
                                                 <label for="reg_dob" class="sr-only">DOB</label>
-                                                <input type="date" class="form-control form-group" id="reg_dob" name="reg_dob" placeholder="dob : dd/mm/yyyy" style="font-color : #aaa">
+                                                <input type="date" class="form-control form-group" id="reg_dob" name="reg_dob" placeholder="dob : dd/mm/yyyy" style="font-color : #aaa" require> 
                                             </div>
 
                                             <div class="form-group">
                                                 <div class="form-group">
                                                     <label for="reg_address" class="sr-only">Address</label>
-                                                    <input type="text" class="form-control" id="reg_city" name="reg_city" placeholder="city">
+                                                    <input type="text" class="form-control" id="reg_city" name="reg_city" placeholder="city" require>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="reg_state" name="reg_state" placeholder="state">
+                                                    <input type="text" class="form-control" id="reg_state" name="reg_state" placeholder="state" require>
                                                 </div>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="reg_pincode" name="reg_pincode" placeholder="pincode">
+                                                    <input type="text" class="form-control" id="reg_pincode" name="reg_pincode" placeholder="pincode" require> 
                                                 </div>
                                             </div>
 
