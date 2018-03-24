@@ -133,6 +133,7 @@
                 </ul>
 
                 <div class="tab-content">
+                    <!-- login-->
                     <div id="home" class="tab-pane fade active in sem">
                         <div class="text-center" style="padding:50px 0">
                             <div class="logo">login</div>
@@ -173,46 +174,14 @@
                         </div>
                     </div>
                     
-                        <?php
-                        if (isset($_POST['submit']))
-                        {
-                            $username=$_POST['reg_username'];
-                            $password=$_POST['reg_password'];
-                            $password_confirm=$_POST['reg_password_confirm'];
-                            $email=$_POST['reg_email'];
-                            $name=$_POST['reg_fullname'];
-                            $gender=$_POST['reg_gender'];
-                            $dob=$_POST['reg_dob'];
-                            $city=$_POST['reg_city'];
-                            $state=$_POST['reg_state'];
-                            $pincode=$_POST['reg_pincode'];
-                            $cust_type=$_POST['reg_cust_type'];
-                            $account_type=$_POST['account_type'];
-                            $reg_agree=$_POST['reg_agree'];
-                            $output_form=false;
-                            if (empty($username) || empty($password) || empty($password_confirm) || empty($email) || empty($name) || empty($gender) 
-                            || empty($dob) || empty($city) || empty($state) || empty($pincode) || empty($cust_type) || empty($account_type) || empty($reg_agree))
-                            {
-                                echo "<h4>please enter all the filds</h4>";
-                                $output_form=true;
-                            }
-                        }
-                        else
-                        {
-                            //code to submit data to database
-                        }
-                        if ($output_form)
-                        {
-                
-                    ?>
-
+                    <!-- register-->
                     <div id="menu1" class="tab-pane fade sem">
                         <!-- REGISTRATION FORM -->
                         <div class="text-center" style="padding:50px 0">
                             <div class="logo">register</div>
                             <!-- Main Form -->
                             <div class="login-form-1">
-                                <form id="register-form" class="text-left" methhod="post" action="$_SERVER['PHP_SELF']">
+                                <form id="register-form" class="text-left" methhod="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
                                     <div class="login-form-main-message"></div>
                                     <div class="main-login-form">
                                         <div class="login-group">
@@ -319,9 +288,8 @@
 
 
                     </div>
-                    <?php 
-                        }
-                    ?>
+                    
+                    <!-- admin-->
                     <div id="menu2" class="tab-pane fade sem">
                         <div class="text-center" style="padding:50px 0">
                             <div class="logo">admin</div>
