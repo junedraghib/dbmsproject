@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -369,6 +368,4 @@
 </body>
 
 </html>
-=======
-<?php include("index.html"); ?>
->>>>>>> 6b9880d423e87872fef2f8ffd562ed9d8ed490f0
+
