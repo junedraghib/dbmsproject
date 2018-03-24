@@ -445,3 +445,22 @@ h1{
     color: #aaaaaa;
     font-weight: bold;
 }
+.select{
+  border: 0px;
+  width: 100%;
+  height: 32px;
+  background-color: white;
+  appearance: none;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-appearance: none;  /*Removes default chrome and safari style*/
+  -moz-appearance: none; 
+}
+.select_account{
+  display: none;
+}
+reg_dob{
+  font-family: 'Varela Round', sans-serif;
+  color: #aaa;
+}
